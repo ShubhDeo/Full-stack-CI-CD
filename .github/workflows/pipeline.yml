@@ -17,9 +17,7 @@ jobs:
         run: npm install
       - name: lint
         run: npm run eslint
-      - name: compiles build
+      - name: build
         run: npm run build
-      - name: starts build
-        run: npm run start-prod
       - name: test
         run: npm run test
